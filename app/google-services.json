@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139825516897",
+    "project_id": "matrix-b2b7e",
+    "storage_bucket": "matrix-b2b7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139825516897:android:fd5b3d3d4251bc50977520",
+        "android_client_info": {
+          "package_name": "com.abhiram.matrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139825516897-bfdogsh657f4vbjmfbkoeovp3v60ulo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Q4hbMf-qUOIBVR_0iG8KnrpzISRFfGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139825516897-bfdogsh657f4vbjmfbkoeovp3v60ulo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".startup.StartupFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64sp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:fontFamily="@font/arial_bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5sp"
+            android:textSize="28sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/arial"
+            android:text="JOIN NOW"
+            android:layout_marginBottom="64sp"
+            android:textColor="@color/white"/>
+
+        <!-- TODO: Update blank fragment layout -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:fontFamily="@font/arial_bold"
+            android:text="Sign in"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="28sp"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundfilled"
+            android:textColor="@color/dark"
+            android:fontFamily="@font/arial_bold"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/dark"
+    tools:context=".electronics.ElectronicsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginRight="20sp"
+        android:orientation="horizontal"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrowl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arial_bold"
+            android:text="Electronics"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toEndOf="@+id/back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/accessories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/accessories"
+        tools:ignore="InvalidId">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial_bold"
+            android:layout_gravity="center"
+            android:text="Accessories"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:shadowColor="@color/dark"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:paddingTop="45sp"
+            android:paddingBottom="45sp"
+            android:shadowRadius="20"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="40sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/laptop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial_bold"
+            android:layout_gravity="center"
+            android:text="Laptops"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:shadowColor="@color/dark"
+            android:paddingTop="45sp"
+            android:paddingBottom="45sp"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="20"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="40sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/camera">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial_bold"
+            android:layout_gravity="center"
+            android:text="Camera"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:shadowColor="@color/dark"
+            android:paddingTop="45sp"
+            android:paddingBottom="45sp"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="10"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

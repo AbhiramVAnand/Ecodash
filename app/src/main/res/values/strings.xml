@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EcoDash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Think Globally\nAct Locally.</string>
+    <string name="name">What\'s your name?</string>
+    <string name="mail">What\'s your mail?</string>
+    <string name="gender">What\'s your gender?</string>
+    <string name="password">Create password</string>
+    <string name="vehicles">Tap to make your journey by lending from others or join hands for sustainability</string>
+    <string name="electronics">Tap to browse a huge collection of electronic devices for usage and sharing</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dark"
+    android:orientation="vertical"
+    tools:context=".startup.ContactFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="horizontal"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrowl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arial_bold"
+            android:text="Create account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toEndOf="@+id/back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your phone no:?"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/arial_bold"
+        android:layout_marginLeft="24sp"
+        android:layout_marginTop="32sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arial"
+        android:layout_marginLeft="24sp"
+        android:paddingTop="10sp"
+        android:textColor="@color/dark"
+        android:textSize="16sp"
+        android:inputType="numberDecimal"
+        android:hint="your phone number"
+        android:text="+91"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginRight="24sp"
+        android:background="@drawable/slightround"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundfilled"
+        android:layout_marginTop="42sp"
+        android:text="Next"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/arial_bold"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
