@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/AbhiramVAnand/Ecodash/blob/main/logo.png" width=160 height=160>
+	<img src="https://github.com/AbhiramVAnand/Ecodash/blob/main/logo.png" width=160 height=160 alt="Ecodash logo">
   <h1 align="center">Ecodash<br>Think globally, act locally</h1>
 </p>
 
